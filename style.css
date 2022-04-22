@@ -1,0 +1,45 @@
+body {
+    background-color: azure;
+}
+
+#titulo {
+    text-align: center;
+}
+
+.bloque {
+    width: 60%;
+    margin: auto;
+}
+
+#multimedia {
+    width: 60%;
+    max-height: 75%;
+    margin: 10px auto;
+    border: 4px solid darkslategrey; border-radius: 4px;
+    background-color: darkslategray;
+    box-shadow: 2px 3px 10px slategrey;
+    display: none;
+}
+
+#botonera {
+    display: flex; justify-content: center; flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+}
+
+#botonera button {
+    background-color: transparent;
+    padding: 4px 6px 2px;
+    margin: 0px 1%;
+    border: 3px groove slategrey;
+    border-radius: 5px;
+}
+
+#botonera button:hover {
+    background-color: slategrey;
+}
+
+i {
+    color: white;
+    text-shadow: 1px 1px 3px darkslategrey;
+}
